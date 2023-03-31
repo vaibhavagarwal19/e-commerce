@@ -1,0 +1,56 @@
+/* Contact Us Page Styles */
+
+h1 {
+    margin-top: 20px;
+    font-size: 36px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  }
+  
+  p{
+    display: flex;
+    justify-content: center;
+    font-style: oblique;
+  }
+  form {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    
+    font-size: 20px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+  }
+  
+  textarea {
+    height: 150px;
+  }
+  
+  button[type="submit"] {
+    display: block;
+    width: 50%;
+    
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #0069d9;
+  }
+  
